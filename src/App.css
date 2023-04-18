@@ -1,0 +1,23 @@
+body {
+  background:#000;
+}
+.App {
+  text-align: center;
+  max-width:700px;
+  margin:15px auto;
+  background:#999;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.currentTime {
+  border:10px solid transparent;
+}
+.currentTime p {
+  display:inline-block;
+  background:#fff;
+  padding:7px 14px;
+  border-radius:5px;
+  font-weight:bold;
+  color:#333;
+}
